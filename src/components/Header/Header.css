@@ -1,0 +1,22 @@
+nav {
+    background-color: #4ab7f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin-top: -0.5rem;
+  }
+  
+  .links {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .links:hover {
+    color: rgb(226, 226, 226);
+  }
+  

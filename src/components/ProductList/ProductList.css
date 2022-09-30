@@ -1,0 +1,45 @@
+table {
+    width: 80%;
+    margin: auto;
+  }
+  
+  th,
+  td {
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+    border: 1px solid #334d54;
+    width: 20rem;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  
+  span {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  tr {
+    overflow: hidden;
+  }
+  
+  th.button,
+  td.button {
+    position: relative;
+    background-color: #4ab7f6;
+    border: none;
+    color: #ffffff;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  
+  th.button:active,
+  td.button:active {
+    background: #4ab7f6;
+    
+  }
+  
+  .mini_button:hover {
+    font-size: 20px;
+  }

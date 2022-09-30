@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .warning {
+    color: crimson;
+  }
+  
